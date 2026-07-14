@@ -1,0 +1,91 @@
+/*border style and width*/
+p.one{
+    border-style: solid;
+    border-width: 5px 20px ; /*5px top and bottom ,
+                               20px on the sides */
+}
+p.two {
+    border-style: groove;
+    border-width: 20px 5px; /*20px top and bottom, 
+                            5px on the sides. */
+}
+p.three {
+    border-style: double;
+    border-width: 25px 10px 40px 35px;
+    /* 25px top, 10px right, 4px bottom, 35px left. */
+
+
+}
+
+
+/* border color*/
+
+p.four{
+    border-style: solid;
+    border-color: red;
+
+}
+p.five{
+    border-color: pink green blue chocolate;
+     /*sienna top, green right, 
+     blue bottom, chocolate left */
+
+
+
+    border-style: solid;
+}
+#adii{
+color: red;
+font-size: 28px;
+}
+
+/* border style*/
+body{
+    text-align: center;
+}
+
+p.six{
+    border-style: dotted solid double dashed;
+    /* doteed for top, solid for right, 
+    double for bottom, dashed for left*/
+}
+p.seven{
+    border-style: solid double dotted;
+    /* solid for top , double for left 
+    and right dotted for bottom */
+
+}
+p.eight{
+    border-style: solid double;
+
+    /* solid for top and bottom, double for left and right*/
+}
+
+/* border Radius*/
+p.normal{
+    border: 2px solid red;
+    padding: 5px;
+
+}
+p.round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+p.round2 {
+    border: 2px solid blue;
+    border-radius: 8px;
+    padding: 7px;
+}
+p.round3 {
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
